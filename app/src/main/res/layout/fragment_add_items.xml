@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddItems"
+    android:orientation="vertical"
+    android:padding="26dp"
+    android:gravity="center_horizontal">
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/selectCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="18sp"
+        android:text="@string/item_category"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:dropDownWidth="match_parent"
+        android:spinnerMode="dropdown"
+        android:background="@android:drawable/btn_dropdown"
+        />
+    <TextView
+        android:id="@+id/selectItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/item_name"
+
+        />
+    <Spinner
+        android:id="@+id/spinner_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:dropDownWidth="match_parent"
+        android:spinnerMode="dropdown"
+        android:background="@android:drawable/btn_dropdown"
+
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quantity"
+        android:hint="@string/quantity"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/baseline_add_shopping_cart_24"
+        android:drawablePadding="5dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_item_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/add_item_btn"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/custom_btn"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/admin_dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/baseline_dashboard_24"
+        />
+
+    <item
+        android:id="@+id/admin_add_items"
+        android:title="Add Items"
+        android:icon="@drawable/baseline_add_24"
+        />
+
+    <item
+        android:id="@+id/admin_view_requests"
+        android:title="View Requests"
+        android:icon="@drawable/baseline_arrow_downward_24"
+        />
+    <item
+        android:id="@+id/admin_view_complaints"
+        android:title="View Complaints"
+        android:icon="@drawable/baseline_assignment_24"
+        />
+    <item
+        android:id="@+id/admin_view_reallocation_request"
+        android:title="View Reallocation Requests"
+        android:icon="@drawable/baseline_label_important_24"
+        />
+
+    <item
+        android:id="@+id/admin_profile"
+        android:title="Profile"
+        android:icon="@drawable/baseline_person_24"
+        />
+
+    <item
+        android:id="@+id/admin_logout"
+        android:title="Logout"
+        android:icon="@drawable/baseline_logout_24"
+        />
+</menu>
